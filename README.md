@@ -4,7 +4,7 @@ this is the first module challenge. this project contains a working website with
 ## Screenshots
 
 ## usage
-link to github pages site: https://prappleman.github.io/module1-challenge/#social-media-marketing
+link to github pages site: https://prappleman.github.io/module1-challenge/
 ## credits
 N/A
 ## license
