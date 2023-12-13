@@ -1,11 +1,11 @@
 # module1-challenge
-##description
+## description
 this is the first module challenge. this project contains a working website with html and css. aswell as follows all the acceptance criteria.
-##link
+## link
 https://prappleman.github.io/module1-challenge/#social-media-marketing
-##usage
+## usage
 N/A
-##credits
+## credits
 N/A
-##license
+## license
 N/A
