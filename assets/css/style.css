@@ -55,7 +55,13 @@ p {
     width: 100%;
     margin-bottom: 25px;
     position: relative; /* Ensures proper positioning for absolute child */
-    ;
+}
+
+.hero-image{
+    height: 800px;
+    width: 100%;
+    background-image: url('../images/digital-marketing-meeting.jpg');
+    background-size: cover;
 }
 
 .photo-container {
@@ -63,35 +69,25 @@ p {
     overflow: hidden; /* Ensures the description stays inside the container */
     display: inline-block; /* Ensures the container takes the size of the image */
     padding-bottom: 1rem;
+    
 }
 
 .description {
     position: absolute;
-    width: 289px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px; /* Adjust the distance from the bottom as needed */
     opacity: 0;
     color: black;
     background: rgba(255, 255, 255, 0.7); /* Semi-transparent background for better readability */
     padding: 10px;
     transition: opacity 0.3s ease; /* Add a smooth transition effect */
-}
-  
-.photo-container:hover .description {
-    opacity: 1;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.photo-container .float-description-right {
-    position: absolute;
-    width: 289px;
-    top: 50px; /* Adjust the distance from the bottom as needed */
-    right: 50px; /* Adjust the distance from the left as needed */
-    opacity: 0;
-    color: black;
-    background: rgba(255, 255, 255, 0.7);
-    padding: 10px;
-    transition: opacity 0.3s ease;
-}
 
-.photo-container:hover .float-description-right {
+
+.photo-container:hover .description{  
     opacity: 1;
 }
 
@@ -117,12 +113,18 @@ p {
   object-fit: cover;
 }
 
+.imgbox{
+    height: 200px;
+}
+
 .float-left {
+    position: relative;
     float: left;
     margin-right: 25px;
 }
 
 .float-right {
+    position: relative;
     float: right;
     margin-left: 25px;
 }
@@ -223,18 +225,18 @@ p {
 }
 
 .search-engine-optimization img {
-    max-height: 200px;
-    max-width: 289px;
+    height: 200px;
+    width: 289px;
 }
 
 .online-reputation-management img {
-    max-height: 200px;
-    max-width: 289px;
+    height: 200px;
+    width: 289px;
 }
 
 .social-media-marketing img {
-    max-height: 200px;
-    max-width: 289px;
+    height: 200px;
+    width: 289px;
 }
 
 .search-engine-optimization h2 {
