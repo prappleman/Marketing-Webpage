@@ -1,13 +1,16 @@
+/* Global reset styles for all elements */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* Body styles, setting background color */
 body {
     background-color: #181818;
 }
 
+/* Header styles */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +18,18 @@ body {
     color: #ffffff;
 }
 
+/* Header title styles */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* SEO text color in the header title */
 .header h1 .seo {
     color: #70aaf0;
 }
 
+/* Navigation styles in the header */
 .header div {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,10 +38,12 @@ body {
     font-size: 20px;
 }
 
+/* List styles for navigation items */
 .header div ul {
     list-style-type: none;
 }
 
+/* Individual navigation item styles */
 .header div ul li {
     display: inline-block;
     margin-left: 25px;
@@ -50,52 +58,53 @@ p {
     font-size: 16px;
 }
 
+/* Hero section styles */
 .hero {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
-    position: relative; /* Ensures proper positioning for absolute child */
+    position: relative;
 }
 
-.hero-image{
+/* Styles for the hero image */
+.hero-image {
     height: 800px;
     width: 100%;
     background-image: url('../images/digital-marketing-meeting.jpg');
     background-size: cover;
 }
 
+/* Styles for the photo container and description overlay */
 .photo-container {
     position: relative;
-    overflow: hidden; /* Ensures the description stays inside the container */
-    display: inline-block; /* Ensures the container takes the size of the image */
+    overflow: hidden;
+    display: inline-block;
     padding-bottom: 1rem;
-    
 }
 
+/* Description styles that appear on hover */
 .description {
     position: absolute;
     left: 0px;
     right: 0px;
-    bottom: 0px; /* Adjust the distance from the bottom as needed */
+    bottom: 0px;
     opacity: 0;
     color: black;
-    background: rgba(255, 255, 255, 0.7); /* Semi-transparent background for better readability */
+    background: rgba(255, 255, 255, 0.7);
     padding: 10px;
-    transition: opacity 0.3s ease; /* Add a smooth transition effect */
+    transition: opacity 0.3s ease;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-
-
-.photo-container:hover .description{  
+.photo-container:hover .description {
     opacity: 1;
 }
 
 .photo-container .description-top {
     position: absolute;
     width: 100%;
-    top: 0px; /* Adjust the distance from the bottom as needed */
-    right: 0px; /* Adjust the distance from the left as needed */
+    top: 0px;
+    right: 0px;
     opacity: 0;
     color: black;
     background: rgba(255, 255, 255, 0.7);
@@ -108,12 +117,12 @@ p {
 }
 
 .hero img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
-.imgbox{
+.imgbox {
     height: 200px;
 }
 
@@ -129,12 +138,14 @@ p {
     margin-left: 25px;
 }
 
+/* Styles for content and benefits sections */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* Benefits section styles */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -176,20 +187,8 @@ p {
     text-align: center;
 }
 
-.benefit-lead img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-    filter: brightness(0) invert(1);
-}
-
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-    filter: brightness(0) invert(1);
-}
-
+.benefit-lead img,
+.benefit-brand img,
 .benefit-cost img {
     display: block;
     margin: 10px auto;
@@ -197,24 +196,9 @@ p {
     filter: brightness(0) invert(1);
 }
 
-.search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #212121;
-    color: #ffffff;
-}
-
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #212121;
-    color: #ffffff;
-}
-
+/* Styles for individual service sections */
+.search-engine-optimization,
+.online-reputation-management,
 .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -224,36 +208,23 @@ p {
     color: #ffffff;
 }
 
-.search-engine-optimization img {
-    height: 200px;
-    width: 289px;
-}
-
-.online-reputation-management img {
-    height: 200px;
-    width: 289px;
-}
-
+/* Image styles for service sections */
+.search-engine-optimization img,
+.online-reputation-management img,
 .social-media-marketing img {
     height: 200px;
     width: 289px;
 }
 
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+/* Heading styles for service sections */
+.search-engine-optimization h2,
+.online-reputation-management h2,
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* Footer styles */
 .footer {
     padding: 30px;
     clear: both;
