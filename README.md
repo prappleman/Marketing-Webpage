@@ -16,4 +16,4 @@ THEN they fall in sequential order<br />
 WHEN I view the title element<br />
 THEN I find a concise, descriptive title<br />
 ## WebPage
-link to github pages site: https://prappleman.github.io/module1-challenge/
+link to github pages site: https://prappleman.github.io/Marketing-Webpage/
